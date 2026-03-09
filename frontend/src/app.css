@@ -1,0 +1,21 @@
+:root {
+  --neon-green: #00ff88;
+  --neon-cyan: #00e5ff;
+  --neon-pink: #ff006e;
+  --neon-yellow: #ffea00;
+  --bg-deep: #030a0f;
+  --bg-panel: #060d14;
+  --bg-card: #0a1520;
+  --border-glow: rgba(0, 255, 136, 0.3);
+  --text-primary: #e0ffe8;
+  --text-muted: #4a7a60;
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-ui: 'Rajdhani', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; width: 100%; background: var(--bg-deep); color: var(--text-primary); font-family: var(--font-ui); overflow-x: hidden; }
+body { background-image: radial-gradient(ellipse at 20% 50%, rgba(0,255,136,0.04) 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, rgba(0,229,255,0.04) 0%, transparent 60%); min-height: 100vh; }
+body::before { content: ''; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.08) 2px, rgba(0,0,0,0.08) 4px); pointer-events: none; z-index: 9999; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--neon-green); border-radius: 3px; }
