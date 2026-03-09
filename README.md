@@ -1,3 +1,7 @@
+
+![snake](snakeui.png)
+
+
 # 🐍 Snake — Neon Edition
 
 A Snake game built with **SvelteKit + PixiJS** (frontend) and **Node.js + Express** (backend). 
@@ -7,7 +11,7 @@ A Snake game built with **SvelteKit + PixiJS** (frontend) and **Node.js + Expres
 - **Svelte frontend** — reactive UI with no boilerplate
 - **Node.js backend** — persistent leaderboard with file-based storage
 - **3 difficulty levels** — Easy / Normal / Hard
-- **Food types** — Normal (red circle), Bonus star (yellow ⭐), Super diamond (cyan 💎)
+- **Food types** — Normal (red circle  🔴 ), Bonus star (yellow ⭐), Super diamond (cyan 💎)
 - **Particle effects** — burst animations on eating food
 - **Level progression** — speed increases every 100 points per level
 - **Leaderboard** — top 10 scores saved to backend
